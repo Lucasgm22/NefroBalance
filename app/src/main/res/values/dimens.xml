@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_spacing">12dp</dimen>
+    <dimen name="title_size">24sp</dimen>
+    <dimen name="button_corner_radius">32dp</dimen>
+    <dimen name="recycler_view_item_margin_bottom">11dp</dimen>
+    <dimen name="recycler_view_item_margin_top">1dp</dimen>
+    <dimen name="text_size_home_values">50sp</dimen>
+    <dimen name="card_corner_radius">12dp</dimen>
+</resources>

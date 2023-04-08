@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_home">
+
+    <fragment
+        android:id="@+id/fragment_home"
+        android:name="br.edu.ufabc.nefrobalance.view.fragment.home.FragmentHome"
+        android:label="Nefro Balance"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/show_list"
+            app:destination="@id/list_items" />
+        <action
+            android:id="@+id/commit_food"
+            app:destination="@id/dialog_fragment_food_commit" >
+        </action>
+        <action
+            android:id="@+id/reset_counters"
+            app:destination="@id/dialogFragmentConfirmReset" />
+    </fragment>
+    <fragment
+        android:id="@+id/list_items"
+        android:name="br.edu.ufabc.nefrobalance.view.fragment.listfood.FragmentListFood"
+        android:label="List"
+        tools:layout="@layout/fragment_list_food">
+        <action
+            android:id="@+id/commit_food"
+            app:destination="@id/dialog_fragment_food_commit" >
+        </action>
+        <argument
+            android:name="query"
+            app:argType="string"
+            android:defaultValue=""/>
+        <action
+            android:id="@+id/show_list"
+            app:destination="@id/list_items"
+            app:launchSingleTop="true" />
+    </fragment>
+
+    <dialog
+        android:id="@+id/dialog_fragment_food_commit"
+        android:name="br.edu.ufabc.nefrobalance.view.dialog.foodcommit.DialogFragmentFoodCommit"
+        android:label="DialogFragmentFoodCommit"
+        tools:layout="@layout/dialog_fragment_food_commit">
+        <argument
+            android:name="foodName"
+            app:argType="string"
+            android:defaultValue='"Food Name"' />
+        <argument
+            android:name="foodId"
+            app:argType="long"
+            android:defaultValue="-1L" />
+        <argument
+            android:name="isLiquid"
+            app:argType="boolean"
+            android:defaultValue="true"
+            />
+    </dialog>
+    <dialog
+        android:id="@+id/dialogFragmentConfirmReset"
+        android:name="br.edu.ufabc.nefrobalance.view.dialog.confirmreset.DialogFragmentConfirmReset"
+        android:label="DialogFragmentConfirmReset" />
+</navigation>
