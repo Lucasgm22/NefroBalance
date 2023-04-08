@@ -1,6 +1,6 @@
 # NefroBalace
 
-Desenvolvido para a disciplina de Programção Programação Avançada para Dispositivos Móveis, ministrada pelo professor Prof. Dr. Diogo Santana Martins.
+Desenvolvido para a disciplina de Programção Programação Avançada para Dispositivos Móveis, ministrada pelo Prof. Dr. Diogo Santana Martins.
 
 ## Contexto
 Beneficiar pacientes de hemodiálise através da visualização do controle de líquido ingerido e outros nutrientes.
