@@ -4,7 +4,7 @@
     <string name="dialog_commit_food_message_default">Quantidade de \'%s\' consumida:</string>
     <string name="button_cancel">Cancelar</string>
     <string name="button_reset">Resetar</string>
-    <string name="dialog_confirm_reset_title">Você deseja resestar os contadores?</string>
+    <string name="dialog_confirm_reset_title">Você deseja resetar os contadores?</string>
     <string name="dialog_food_commit_title">Adicionar comida consumida</string>
     <string name="button_add">Adicionar</string>
     <string name="dialog_food_commit_invalid_input">Erro ao adicionar consumo</string>
