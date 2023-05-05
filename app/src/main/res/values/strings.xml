@@ -7,15 +7,15 @@
     <string name="dialog_confirm_reset_title">Do you want to reset the counters?</string>
     <string name="dialog_food_commit_title">Add consumed food</string>
     <string name="button_add">Add</string>
-    <string name="dialog_food_commit_invalid_input">Not added, input must be a number</string>
-    <string name="dialog_food_commit_valid_food_input">Added %1$d g of \'%2$s\'</string>
-    <string name="dialog_food_commit_valid_liquid_input">Added %1$d mL of \'%2$s\'</string>
+    <string name="dialog_food_commit_invalid_input">Error while adding consumption</string>
+    <string name="dialog_food_commit_valid_food_input">Adding %1$.2f g of \'%2$s\'</string>
+    <string name="dialog_food_commit_valid_liquid_input">Adding %1$.2f mL of \'%2$s\'</string>
     <string name="action_search_query_hint">Type the name of the food</string>
     <string name="text_input_quantity_consumed_food_hint">quantity consumed (g)</string>
     <string name="text_input_quantity_consumed_liquid_hint">quantity consumed (mL)</string>
     <string name="text_liquid_quantity_label">Liquid consumed</string>
-    <string name="text_quantity_value_food_default">0 g</string>
-    <string name="text_quantity_value_liquid_default">0 mL</string>
+    <string name="text_quantity_value_food_default">%.2f mg</string>
+    <string name="text_quantity_value_liquid_default">%.2f mL</string>
     <string name="floating_action_button_add_description">Open list and select food to add</string>
     <string name="floating_action_button_water_description">Add water consumed</string>
     <string name="text_sodium_quantity_label">Sodium consumed</string>
@@ -23,4 +23,10 @@
     <string name="text_phosphorus_quantity_label">Phosphorus consumed</string>
     <string name="floating_action_button_reset">Reset counters</string>
     <string name="action_search_food_hint">Type the name of the food</string>
+    <string name="food_commit_added">Added</string>
+    <string name="water_name">Water</string>
+    <string name="failed_to_reset">Failed to reset</string>
+    <string name="reset_success">Reset</string>
+    <string name="error_to_load_consumption">Error to load consumption</string>
+    <string name="failed_to_list_foods">Failed to list foods</string>
 </resources>

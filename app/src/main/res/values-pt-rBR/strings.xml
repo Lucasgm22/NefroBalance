@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">NefroBalance</string>
+    <string name="text_list_item_title_default">Nome da Comida</string>
+    <string name="dialog_commit_food_message_default">Quantidade de \'%s\' consumida:</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="button_reset">Resetar</string>
+    <string name="dialog_confirm_reset_title">Você deseja resestar os contadores?</string>
+    <string name="dialog_food_commit_title">Adicionar comida consumida</string>
+    <string name="button_add">Adicionar</string>
+    <string name="dialog_food_commit_invalid_input">Erro ao adicionar consumo</string>
+    <string name="dialog_food_commit_valid_food_input">Adicionando %1$.2f g de \'%2$s\'</string>
+    <string name="dialog_food_commit_valid_liquid_input">Adicionando %1$.2f mL de \'%2$s\'</string>
+    <string name="action_search_query_hint">Digite o nome da comida</string>
+    <string name="text_input_quantity_consumed_food_hint">quantidade consumida (g)</string>
+    <string name="text_input_quantity_consumed_liquid_hint">quantidade consumida (mL)</string>
+    <string name="text_liquid_quantity_label">Liquido consumido</string>
+    <string name="text_quantity_value_food_default">%.2f mg</string>
+    <string name="text_quantity_value_liquid_default">%.2f mL</string>
+    <string name="floating_action_button_add_description">Abre a lista para escolher comida consumida</string>
+    <string name="floating_action_button_water_description">Adiciona água consumida</string>
+    <string name="text_sodium_quantity_label">Sódio consumido</string>
+    <string name="text_potassium_quantity_label">Potássio consumido</string>
+    <string name="text_phosphorus_quantity_label">Fósforo consumido</string>
+    <string name="floating_action_button_reset">Resetar constadores</string>
+    <string name="action_search_food_hint">Digite o nome da comida</string>
+    <string name="food_commit_added">Adicionado</string>
+    <string name="water_name">Água</string>
+    <string name="failed_to_reset">Falha ao resetar</string>
+    <string name="reset_success">Resetado</string>
+    <string name="error_to_load_consumption">Erro ao carregar consumo</string>
+    <string name="failed_to_list_foods">Erro ao listar alimentos</string>
+</resources>

@@ -7,6 +7,7 @@ import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.RecyclerView
 import br.edu.ufabc.nefrobalance.databinding.FragmentListFoodItemBinding
 import br.edu.ufabc.nefrobalance.model.entity.Food
+import br.edu.ufabc.nefrobalance.viewmodel.MainViewModel
 
 class FoodAdapter(private val foods: List<Food>, private val fragment: FragmentListFood) : RecyclerView.Adapter<FoodAdapter.FoodViewHolder>() {
 
@@ -16,7 +17,6 @@ class FoodAdapter(private val foods: List<Food>, private val fragment: FragmentL
         init {
             itemBinding.root.setOnClickListener {
                 val food = foods[bindingAdapterPosition]
-                Log.d(javaClass.simpleName, "USER CLICKED ON ITEM ${food.name}")
                 fragment.findNavController().navigate(FragmentListFoodDirections.commitFood(foodId = food.id, foodName = food.name, isLiquid = food.isLiquid))
             }
         }
