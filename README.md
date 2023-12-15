@@ -22,6 +22,6 @@ não precisar registrar em outro lugar para depois colocar no sistema, ele pode 
 seu dispositivo móvel, o que também dá uma visão mais próxima de tempo real dos nutrientes e líquido ingerido.
 
 ## Videos
-[Apresentação](https://youtu.be/_p9BR6Rk84U)
-[Apresentação técnica](https://youtu.be/GDlKbBp4dXE)
-[Preview](https://www.youtube.com/shorts/Qjn2Z1yE0cA)
+- [Apresentação](https://youtu.be/_p9BR6Rk84U)
+- [Apresentação técnica](https://youtu.be/GDlKbBp4dXE)
+- [Preview](https://www.youtube.com/shorts/Qjn2Z1yE0cA)
